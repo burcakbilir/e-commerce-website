@@ -1,0 +1,31 @@
+/*! breadcrumb start */
+.single-breadcrumb {
+  margin-top: 20px;
+}
+
+/*! breadcrumb end */
+
+.single-content {
+  margin-top: 30px;
+}
+
+.site-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .site-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .site-main .product-gallery {
+    width: 100%;
+  }
+  .site-main .product-info {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0;
+  }
+}

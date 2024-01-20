@@ -1,0 +1,52 @@
+.campaigns .campaign-item {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 35px;
+  flex: 1;
+  color: #fff;
+}
+
+.campaign-item .campaign-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.campaign-item .campaign-desc {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.campaign-item .campaign-button {
+  padding: 10px 14px;
+  background-color: #fff;
+  transition: all 0.2s ease;
+}
+
+.campaign-item .campaign-button:hover {
+  opacity: 0.8;
+}
+.campaigns-wrapper:nth-child(1) .campaign-item:nth-child(1) {
+  background-image: url(https://obs.line-scdn.net/0h_hLgu9nnAEdxHihCdwF_EEhIDDZCehVBH2YdIFwdWCNeLlsQSixIPVEXX3BAfU5FT2RGdVcbX3YOLUBGHn8);
+}
+
+.campaigns-wrapper:nth-child(1) .campaign-item:nth-child(2) {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5c25b0763e2d0974da6dea53/1587337546434-96MZ0FK5G2CB23JIHPPA/Nike_Sportswear_SU20_Air_Max_Verona_10_original.jpg?format=1000w);
+}
+
+.campaigns-wrapper:nth-child(2) .campaign-item:nth-child(1) {
+  background-image: url(https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F07%2Fnike-sacai-undercover-off-white-ambush-apparel-release-dates-0.jpg?w=960&cbr=1&q=90&fit=max);
+  flex: 2;
+}
+
+.campaigns-wrapper:nth-child(2) .campaign-item:nth-child(2) {
+  background-image: url(https://i2f9m2t2.rocketcdn.me/wp-content/uploads/2019/09/Nike-x-sacai-LDwaffle-singapore-release-details-september-2019-new-colorways.jpg);
+}
+
+@media (max-width: 768px) {
+  .campaigns .campaign-item {
+    width: 100%;
+    flex: unset;
+  }
+}

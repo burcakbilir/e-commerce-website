@@ -1,0 +1,61 @@
+.collections .collections-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.collections .collection-item {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 35px;
+  flex: 1;
+
+  color: #fff;
+}
+
+.collection-item .collection-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.collection-item .collection-desc {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.collection-item .collection-button {
+  padding: 10px 14px;
+  background-color: #fff;
+  transition: all 0.2s ease;
+}
+
+.collection-item .collection-button:hover {
+  opacity: 0.8;
+}
+.collection-wrapper:nth-child(1) .collection-item:nth-child(1) {
+  background-image: url(https://www.empire-for-sneakers.com/app/uploads/2019/11/emp_artHeader_AirForce1.jpg);
+}
+
+.collection-wrapper:nth-child(1) .collection-item:nth-child(2) {
+  background-image: url(https://www.rollingstone.com/wp-content/uploads/2023/04/Nike-Air-1.jpg?w=1600&h=900&crop=1);
+}
+
+.collection-wrapper:nth-child(2) .collection-item:nth-child(1) {
+  background-image: url(https://pbs.twimg.com/media/EfLITzdWsAIUWK5.jpg);
+  flex: 2;
+}
+
+.collection-wrapper:nth-child(2) .collection-item:nth-child(2) {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/87b83b31498685.5660ec544e543.jpg);
+}
+
+@media (max-width: 768px) {
+  .collection .collection-item {
+    width: 100%;
+    flex: unset;
+  }
+  .collections .collections-wrapper {
+    flex-direction: column;
+  }
+}

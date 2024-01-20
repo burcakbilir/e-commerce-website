@@ -1,0 +1,47 @@
+.collection-products .collection-products-wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+}
+
+.single-collections .single-collection-item {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 35px;
+  flex: 1;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.single-collection-item .single-collection-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.single-collection-item .single-collection-desc {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.single-collection-item .single-collection-button {
+  padding: 10px 14px;
+  background-color: #fff;
+  transition: all 0.2s ease;
+}
+
+.single-collection-item .single-collection-button:hover {
+  opacity: 0.8;
+}
+.single-collection-wrapper:nth-child(1) .single-collection-item:nth-child(1) {
+  background-image: url(https://www.empire-for-sneakers.com/app/uploads/2019/11/emp_artHeader_AirForce1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .single-collection .single-collection-item {
+    width: 100%;
+    flex: unset;
+  }
+}

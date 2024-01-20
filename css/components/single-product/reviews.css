@@ -1,0 +1,144 @@
+.tab-panel-reviews .comments .comment-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tab-panel-reviews .comments .comment-avatar img {
+  width: 65px;
+  border-radius: 50%;
+}
+.tab-panel-reviews .comments .comment-list .comment-item {
+  display: flex;
+  margin-bottom: 40px;
+}
+.tab-panel-reviews .comments .comment-list .comment-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.tab-panel-reviews .comments .comment-list .comment-text .comment-star {
+  display: flex;
+  align-items: center;
+  column-gap: 1px;
+}
+.tab-panel-reviews .comments .comment-list .comment-text .comment-star li i {
+  color: gold;
+  font-size: 12px;
+}
+.tab-panel-reviews .comments .comment-list .comment-text .comment-star i {
+  color: gold;
+  font-size: 12px;
+}
+.tab-panel-reviews .comments .comment-list .comment-text .comment-meta {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+.tab-panel-reviews .comments .comment-list .comment-text .comment-meta strong {
+  font-size: 13px;
+}
+.tab-panel-reviews .comments .comment-list .comment-text .comment-meta time {
+  font-size: 13px;
+  opacity: 0.8;
+}
+.tab-panel-reviews .comments .comment-list .comment-text .comment-desc p {
+  font-size: 14px;
+}
+
+.tab-panel-reviews .review-form-wrapper h2 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 20px 0;
+  border-bottom: 1px solid #dee0ea;
+  padding-bottom: 16px;
+}
+.tab-panel-reviews .review-form-wrapper .comment-notes {
+  font-size: 14px;
+}
+.tab-panel-reviews .review-form-wrapper .comment-form-rating {
+  margin: 20px 0;
+  font-size: 14px;
+}
+.tab-panel-reviews .review-form-wrapper .comment-form-rating .stars i {
+  color: #dee0ea;
+  font-size: 10px;
+  transition: 0.2s ease color;
+}
+.tab-panel-reviews .review-form-wrapper .comment-form-rating .stars {
+  display: flex;
+}
+.tab-panel-reviews .review-form-wrapper .comment-form-rating .stars a {
+  display: flex;
+  padding: 4px 10px;
+  border-right: 1px solid #dee0ea;
+  margin-top: 5px;
+}
+
+.tab-panel-reviews .review-form-wrapper .comment-form-rating .star.active i {
+  color: gold;
+}
+.tab-panel-reviews .review-form-wrapper .comment-form-rating .stars a:hover i {
+  color: gold;
+}
+.tab-panel-reviews .review-form-wrapper .comment-form-rating .stars a i {
+  pointer-events: none;
+}
+.tab-panel-reviews
+  .review-form-wrapper
+  .comment-form-rating
+  .stars
+  a:first-child {
+  padding-left: 0;
+}
+.tab-panel-reviews
+  .review-form-wrapper
+  .comment-form-rating
+  .stars
+  a:last-child {
+  border-right: unset;
+}
+
+.tab-panel-reviews span.required {
+  color: #f66969;
+}
+.tab-panel-reviews .review-form-wrapper .comment-form .form-comment {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  row-gap: 4px;
+}
+.tab-panel-reviews .review-form-wrapper .comment-form .comment-form-author {
+  margin: 20px 0;
+}
+.tab-panel-reviews .review-form-wrapper textarea,
+input {
+  border: 1px solid #dee0ea;
+  outline: unset;
+}
+.tab-panel-reviews .review-form-wrapper textarea {
+  resize: none;
+  padding: 6px;
+}
+.tab-panel-reviews .review-form-wrapper input {
+  padding: 6px;
+}
+
+.tab-panel-reviews .review-form-wrapper .comment-form .comment-form-cookies {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  font-size: 14px;
+}
+
+.tab-panel-reviews .review-form-wrapper .comment-form .form-submit input {
+  border: none;
+  background-color: #191919;
+  color: #fff;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+.tab-panel-reviews .review-form-wrapper .comment-form .form-submit input:hover {
+  background-color: #333333;
+}
